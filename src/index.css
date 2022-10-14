@@ -25,6 +25,11 @@ button {
 	border: none;
 }
 
+.appContainer, .navbarListItems{
+	margin: 0 auto !important;
+	max-width: 996px;
+}
+
 .input,
 .passwordInput,
 .emailInput,

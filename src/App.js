@@ -14,7 +14,7 @@ import CreateListing from './pages/CreateListing';
 
 function App() {
 	return (
-		<div>
+		<div className='appContainer'>
 			<Router>
 				<Routes>
 					<Route path="/" element={<Explore />} />
